@@ -12,13 +12,10 @@ namespace Abilities
             return;
 
         auto GenerateNewSpec = [&]() -> FGameplayAbilitySpec
-        {
-            FGameplayAbilitySpecHandle Handle{ rand() };
+            {
+                FGameplayAbilitySpecHandle Handle{ rand() };
 
-            FGameplayAbilitySpec Spec{ -1, -1, -1, Handle, GameplayAbilityClass->CreateDefaultObject<UGameplayAbility>(), 1, -1, nullptr, 0, false, false, false };
-
-            return Spec;
-        };
+            };
 
         auto Spec = GenerateNewSpec();
 
