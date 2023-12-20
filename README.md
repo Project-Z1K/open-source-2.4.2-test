@@ -1,7 +1,7 @@
-# idk this is a pasted i do JGS gameserver recode to 2.4.2
+i decided to do open source my old 2.4.2 src
+#  JGS gameserver recode to 2.4.2
 
 
-# stuff working
-- join game
-- inventory
-- awiwitis
+made by andreu1k ft .old.
+
+discord https://discord.gg/dj6NamETrv
