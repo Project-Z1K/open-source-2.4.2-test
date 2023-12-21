@@ -4,7 +4,7 @@ namespace Hooks
 {
 	bool bIsReady = false;
 	bool bHasSpawned = false;
-	bool bIsInGame = false;
+	bool bIsInGame = true;
 	bool bHasInitedTheBeacon = false;
 
 	bool (*InternalTryActivateAbility)(UAbilitySystemComponent*, FGameplayAbilitySpecHandle, FPredictionKey, UGameplayAbility**, void*, const FGameplayEventData* TriggerEventData);
