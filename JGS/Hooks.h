@@ -3,7 +3,7 @@
 namespace Hooks
 {
 	bool bIsReady = false;
-	bool bHasSpawned = false;
+	bool bHasSpawned = true;
 	bool bIsInGame = true;
 	bool bHasInitedTheBeacon = false;
 
